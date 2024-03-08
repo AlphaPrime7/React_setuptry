@@ -1,0 +1,23 @@
+{
+  "name": "setuptry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TRYING TO FIGURE OUT THIS REACT BS",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3"
+  }
+}

@@ -7,6 +7,7 @@
     display: flex; /*fills any empty space in the box*/
     align-items: center;
     justify-content: center;
+    font-size: 0.5rem;
     border-bottom: 1px solid #191d20;
 
     /*the words in the element*/
@@ -18,14 +19,13 @@
 .title {
   flex: 1;
   text-align: center;
-  font-size: 15px;
 }
 
 .icon {
-  display: block;
+  display: flex;
   margin: 0 auto; /*top right bottom left*/
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   padding: 0.65rem 0;
 }
 
@@ -33,7 +33,7 @@
   flex: 1; /*1-3 values*/
   display: flex;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 0.5rem;
 
 }
 
@@ -46,7 +46,7 @@
 */
 
 .items > * {
-  padding: 0 0.5rem; /*i used margin left but padding does the trick too; also considered &nbsp; in HTML*/
+  padding: 0 0.3rem; /*i used margin left but padding does the trick too; also considered &nbsp; in HTML*/
   cursor: progress;/*pointer, wait, zoom-in, crosshair*/
 }
 
@@ -55,22 +55,22 @@
 .windowButtons {
   flex: 1;
   display: flex;
-  align-items: right;
+  align-items: center;
   margin-left: auto;
+  
 }
 
 .windowButtons * {
   margin-left: 0.5rem;
   height: 13px;
   width: 13px;
-  border-radius: 6px; /*50%*/ 
-  /*border: 2px solid #55cc00;*/
+  border-radius: 50%; /*5px*/ 
   cursor: progress; 
-  background: transparent;
 }
 
 .minimize {
   background-color: #f1fa8c;
+  margin-left: auto;  
 }
 
 .maximize {
@@ -79,4 +79,13 @@
 
 .close {
   background-color: #ff5555;
+}
+
+@media screen and (max-width: 800px) {
+  .items p {
+    display: none;
+  }
+  .title {
+    flex: 4;
+  }
 }

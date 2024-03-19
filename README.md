@@ -7,3 +7,6 @@ components or code in order to see what changes in written code result in.
 - Finally I can see my work in real time as I progress into learning HTML, React and web ui design.
 
 ![vscode_print](https://github.com/AlphaPrime7/setuptry/assets/98990077/f0a96ad5-2f39-445c-89aa-b2a5cf8f3a99)
+
+![image](https://github.com/AlphaPrime7/React_setuptry/assets/98990077/de615dd3-f60a-4a11-a650-a434345d0257)
+

@@ -10,3 +10,9 @@ components or code in order to see what changes in written code result in.
 
 ![image](https://github.com/AlphaPrime7/React_setuptry/assets/98990077/de615dd3-f60a-4a11-a650-a434345d0257)
 
+## TRANSPORT REACT SETUP TRY
+
+- In ubuntu run:
+
+'npm install' to get all dependecies installed on linux.
+
